@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "breads",
+  "info": {
+    "singularName": "bread",
+    "pluralName": "breads",
+    "displayName": "breads"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
