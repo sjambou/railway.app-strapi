@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "Commandes"
+    "displayName": "Commandes",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,10 +24,6 @@
       "type": "string",
       "required": true
     },
-    "order": {
-      "type": "blocks",
-      "required": true
-    },
     "state": {
       "type": "enumeration",
       "enum": [
@@ -35,6 +32,10 @@
         "Annulée"
       ],
       "default": "En cours",
+      "required": true
+    },
+    "order": {
+      "type": "json",
       "required": true
     }
   }
