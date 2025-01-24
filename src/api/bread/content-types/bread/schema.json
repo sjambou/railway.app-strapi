@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bread",
     "pluralName": "breads",
-    "displayName": "breads"
+    "displayName": "Pains",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,6 +15,43 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "customField",
+      "default": "[]",
+      "options": [
+        "Long",
+        "Rond"
+      ],
+      "required": true,
+      "min": 1,
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "weight": {
+      "type": "customField",
+      "default": "[]",
+      "options": [
+        "500g",
+        "1kg"
+      ],
+      "required": true,
+      "min": 1,
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
