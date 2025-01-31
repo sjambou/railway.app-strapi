@@ -36,7 +36,8 @@
       "default": "[]",
       "options": [
         "Long",
-        "Rond"
+        "Rond",
+        "Moulé"
       ],
       "required": true,
       "min": 1,
