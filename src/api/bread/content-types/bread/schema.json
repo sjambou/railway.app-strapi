@@ -12,6 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "display": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true
