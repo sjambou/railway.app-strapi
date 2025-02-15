@@ -36,28 +36,9 @@
         "images"
       ]
     },
-    "type": {
-      "type": "customField",
-      "default": "[]",
-      "options": [
-        "Long",
-        "Rond",
-        "Moulé"
-      ],
-      "required": true,
-      "min": 1,
-      "customField": "plugin::multi-select.multi-select"
-    },
-    "weight": {
-      "type": "customField",
-      "default": "[]",
-      "options": [
-        "500g",
-        "1kg"
-      ],
-      "required": true,
-      "min": 1,
-      "customField": "plugin::multi-select.multi-select"
+    "types": {
+      "type": "json",
+      "required": true
     }
   }
 }
