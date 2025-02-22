@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "plannings",
+  "info": {
+    "singularName": "planning",
+    "pluralName": "plannings",
+    "displayName": "Planning"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "organization": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
