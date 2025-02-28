@@ -28,6 +28,10 @@
       "type": "string",
       "required": true
     },
+    "productionDate": {
+      "type": "string",
+      "required": true
+    },
     "state": {
       "type": "enumeration",
       "enum": [
