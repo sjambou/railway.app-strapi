@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "weights",
+  "info": {
+    "singularName": "weight",
+    "pluralName": "weights",
+    "displayName": "Poids"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "availableWeights": {
+      "type": "json"
+    }
+  }
+}
