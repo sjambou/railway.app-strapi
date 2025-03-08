@@ -1,0 +1,5 @@
+{
+    "build": {
+        "baseImage": "node:20"
+    }
+}
