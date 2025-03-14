@@ -28,6 +28,12 @@
     "description": {
       "type": "text"
     },
+    "order": {
+      "type": "integer",
+      "default": 50,
+      "required": true,
+      "min": 0
+    },
     "image": {
       "type": "media",
       "multiple": false,
