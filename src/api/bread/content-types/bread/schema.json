@@ -25,6 +25,9 @@
       "type": "string",
       "required": true
     },
+    "info": {
+      "type": "string"
+    },
     "description": {
       "type": "text"
     },
