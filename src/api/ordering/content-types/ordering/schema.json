@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "orderings",
+  "info": {
+    "singularName": "ordering",
+    "pluralName": "orderings",
+    "displayName": "Commander"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
